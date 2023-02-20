@@ -70,7 +70,7 @@
 a {
   text-decoration: none;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap");
 @import "./Sass/_mixin.scss";
 *,
 *::after,
@@ -78,6 +78,7 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Manrope";
 }
 
 html {

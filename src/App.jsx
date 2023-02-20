@@ -1,11 +1,15 @@
 
 import './App.css';
-import { Picture } from './assets';
 import {Navbar} from './components/common'
+import {Home} from './components/modules'
 function App() {
 
   return (
+    <>
+    
     <Navbar />
+    <Home />
+    </>
   )
 }
 

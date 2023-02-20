@@ -1,0 +1,48 @@
+@import "../../../Sass/mixin";
+@import "../../../Sass/variables";
+
+.subheader-container {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0rem;
+  // background-color: $bgclr;
+  background-color: aqua;
+  &-content {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding: 0.5rem 0rem;
+    background-color: lightcoral;
+    &-left {
+      width: 50%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      background-color: lightblue;
+      & > h1 {
+        font-family: "Manrope";
+        font-weight: 800;
+        font-size: 5rem;
+        line-height: 75px;
+        letter-spacing: -0.04em;
+        background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      & > p {
+        margin-top: 33px;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 27px;
+        color: #81afdd;
+      }
+    }
+    &-right {
+      width: 50%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      background-color: lightgreen;
+    }
+  }
+}
