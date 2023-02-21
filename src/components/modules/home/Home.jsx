@@ -1,9 +1,15 @@
 import React from "react";
 import "./Home.scss";
-import { Subheaderimg } from "../../../assets";
-import { Pf1 } from "../../../assets";
-import { Pf2 } from "../../../assets";
-import { Pf3 } from "../../../assets";
+import {
+  Subheaderimg,
+  Pf1,
+  Pf2,
+  Pf3,
+  SI1,
+  SI2,
+  SI3,
+  SI4,
+} from "../../../assets";
 
 const Home = () => {
   return (
@@ -43,6 +49,15 @@ const Home = () => {
           <div className="subheader-container-content-right">
             <img src={Subheaderimg} alt="Picture" />
           </div>
+        </div>
+      </div>
+      <div className="social-container">
+        <div className="social-container-content">
+          <img src={SI1} alt='Social-images' />
+          <img src={SI4} alt='Social-images' />
+          <img src={SI2} alt='Social-images' />
+          <img src={SI3} alt='Social-images' />
+          <img src={SI4} alt='Social-images' />
         </div>
       </div>
     </>
