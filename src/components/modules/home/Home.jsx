@@ -9,6 +9,7 @@ import {
   SI2,
   SI3,
   SI4,
+  Line,
 } from "../../../assets";
 
 const Home = () => {
@@ -53,11 +54,49 @@ const Home = () => {
       </div>
       <div className="social-container">
         <div className="social-container-content">
-          <img src={SI1} alt='Social-images' />
-          <img src={SI4} alt='Social-images' />
-          <img src={SI2} alt='Social-images' />
-          <img src={SI3} alt='Social-images' />
-          <img src={SI4} alt='Social-images' />
+          <img src={SI1} alt="Social-images" />
+          <img src={SI4} alt="Social-images" />
+          <img src={SI2} alt="Social-images" />
+          <img src={SI3} alt="Social-images" />
+          <img src={SI4} alt="Social-images" />
+        </div>
+      </div>
+      <div className="aboutgpt-container">
+        <div className="aboutgpt-container-content">
+          <div className="aboutgpt-container-content-row1">
+            <div className="aboutgpt-container-content-row1-left">
+              <img src={Line} alt="LineImg" />
+              <h1>What is GPT-3</h1>
+            </div>
+            <div className="aboutgpt-container-content-row1-right">
+              <p>
+                We so opinion friends me message as delight. Whole front do of
+                plate heard oh ought. His defective nor convinced residence own.
+                Connection has put impossible own apartments boisterous. At
+                jointure ladyship an insisted so humanity he. Friendly bachelor
+                entrance to on by.
+              </p>
+            </div>
+          </div>
+          <div className="aboutgpt-container-content-row2">
+            <h1>The possibilities are beyond your imagination</h1>
+            <p>Explore The Library</p>
+          </div>
+          <div className="aboutgpt-container-content-row3">
+            <GPTdata
+              Tittle="Chatbots"
+              chatdata="We so opinion friends me message as delight. Whole front do of plate
+          heard oh ought."
+            />
+            <GPTdata
+              Tittle="Knowledgebase"
+              chatdata="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+            />
+            <GPTdata
+              Tittle="Education"
+              chatdata="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+            />
+          </div>
         </div>
       </div>
     </>
@@ -65,3 +104,15 @@ const Home = () => {
 };
 
 export default Home;
+
+const GPTdata = ({ Tittle, chatdata }) => {
+  return (
+    <div className="gptdata">
+      <div className="gptdata-content">
+        <img src={Line} alt="lineIng" />
+        <h1> {Tittle} </h1>
+        <p>{chatdata}</p>
+      </div>
+    </div>
+  );
+};
