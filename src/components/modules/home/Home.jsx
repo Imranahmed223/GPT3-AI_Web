@@ -149,6 +149,22 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="container7">
+        <div className="container7-content">
+          <p>Request Early Acess to Get Started</p>
+          <div>
+            <h1>Register today & start exploring the endless possiblities.</h1>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <div className="container8">
+        <div className="container8-content">
+          <h1>A lot is happening,</h1>
+          <h1> We are blogging about it.</h1>
+        </div>
+      </div>
     </>
   );
 };
