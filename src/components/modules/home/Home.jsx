@@ -10,6 +10,7 @@ import {
   SI3,
   SI4,
   Line,
+  FImg,
 } from "../../../assets";
 
 const Home = () => {
@@ -127,6 +128,24 @@ const Home = () => {
               data="From they fine john he give of rich he. They age and draw mrs like.
           Improving end distrusts may instantly was household applauded."
             />
+          </div>
+        </div>
+      </div>
+      <div className="container6">
+        <div className="container6-content">
+          <div className="container6-content-left">
+            <img src={FImg} alt="Feature-img" />
+          </div>
+          <div className="container6-content-right">
+            <span>Request Early Acess to Get Started</span>
+            <h1>The possibilities are beyond your imagination</h1>
+            <p>
+              Yet bed any for travelling assistance indulgence unpleasing. Not
+              thoughts all exercise blessing. Indulgence way everything joy
+              alteration boisterous the attachment. Party we years to order
+              allow asked of.
+            </p>
+            <h5>Request Early Acess to Get Started</h5>
           </div>
         </div>
       </div>
