@@ -1,0 +1,100 @@
+@import "../../../Sass/mixin";
+@import "../../../Sass/variables";
+
+.footer-container {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0rem;
+  background-color: #031b34;
+  &-content {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0rem;
+    // background-color: aqua;
+    // background-color: ;
+    &-prt1 {
+      width: 25%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      //   background-color: plum;
+      & > img {
+        width: 118px;
+        height: 30px;
+      }
+      & > p {
+        margin-top: 25px;
+        width: 62%;
+        font-size: 1.1rem;
+        line-height: 14px;
+        color: #ffffff;
+      }
+    }
+    &-prt2 {
+      width: 15%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      //   background-color: plum;
+      & > h5 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+      }
+      & > p {
+        margin-top: 26px;
+        font-size: 12px;
+        line-height: 14px;
+        color: #ffffff;
+      }
+    }
+    &-prt3 {
+      width: 15%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      //   background-color: plum;
+      & > h5 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+      }
+      & > p {
+        margin-top: 26px;
+        font-size: 12px;
+        line-height: 14px;
+        color: #ffffff;
+      }
+    }
+    &-prt4 {
+      width: 15%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      //   background-color: plum;
+      & > h5 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+      }
+      & > p {
+        width: 70%;
+        margin-top: 26px;
+        font-size: 12px;
+        line-height: 14px;
+        color: #ffffff;
+      }
+    }
+  }
+  &-content2 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 2.7rem 0rem;
+    // background-color: lawngreen;
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: "liga" off;
+    color: #ffffff;
+  }
+}
