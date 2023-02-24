@@ -184,8 +184,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container8">
-        <div className="container8-content">
+      <div className="container9">
+        <div className="container9-content">
           <h1>Do you want to step in to the future before others</h1>
           <button>Request Early Access</button>
         </div>
